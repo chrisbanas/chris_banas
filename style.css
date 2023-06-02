@@ -30,6 +30,16 @@ sup, .sup {
   font-size: 16px;
 }
 
+/* .bi-linkedin {
+  color: #0072b1 ;
+}
+
+.bi-github {
+  color: black;
+} */
+
+
+
 .underline::after {
   content: ' ';
   border-bottom: 3px solid;
