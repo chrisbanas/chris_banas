@@ -38,8 +38,6 @@ sup, .sup {
   color: black;
 } */
 
-
-
 .underline::after {
   content: ' ';
   border-bottom: 3px solid;
