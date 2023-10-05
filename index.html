@@ -1,24 +1,56 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-  <title>Christopher Banas : Full Stack Software Engineer | Data Science | Data Management.</title>
-  <link rel="icon" type="image/x-icon" href="img/Christopher-Banas-Favicon.png">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-MVWKT8LS"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'GTM-MVWKT8LS');
+  </script>
+
+  <title>Christopher Banas: Full-Stack Engineer</title>
+  <link rel="icon" href="/Christopher-Banas-Favicon.png" type="image/x-icon" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
   <link href="style.css" rel="stylesheet">
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
     crossorigin="anonymous"></script>
 
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <script>
+    $(document).ready(function () {
+      $('.open-popup-link').magnificPopup({
+        type: 'inline'
+      });
+    });
+  </script>
+  <meta name="description"
+    content="I'm Christopher Banas: Full-Stack Engineer">
+  <meta property="og:image" content="./img/headshot_2023.png">
+  <meta property="og:image:secure_url" content="./img/headshot_2023.png">
+  <meta property="og:image:width" content="1317">
+  <meta property="og:image:height" content="1305">
+  <script src="https://kit.fontawesome.com/cad6155e62.js" crossorigin="anonymous"></script>
+  <script>
+    function trackButtonClick(eventName) {
+      gtag('event', eventName);
+    }
+  </script>
 </head>
 
 <body>
   <nav class="navbar navbar-expand-lg bg-white navbar-light fixed-top">
     <div class="container">
-      <a class="navbar-brand" href=""><i class="bi-lightning-charge"></i> Christopher Banas</a>
+      <a class="navbar-brand" href="#" onclick="trackButtonClick('Nav - back to top')"><i
+          class="bi-stars name-icon"></i> Christopher Banas</a>
 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,24 +60,21 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-3">
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">Work</a>
+            <a class="nav-link" href="#portfolio" onclick="trackButtonClick('Nav - portfolio')">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#about" onclick="trackButtonClick('Nav - about')">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#testimonials">Testimonials</a>
+            <a class="nav-link" href="#testimonials" onclick="trackButtonClick('Nav - testimonials')">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link" href="#contact" onclick="trackButtonClick('Nav - contact')">Contact</a>
           </li>
         </ul>
 
-        <a target='_blank' href='https://www.linkedin.com/in/christopher-banas/' class='btn btn-primary'><i
-            class="bi-linkedin"></i> Connect on Linkedin</a>
-        <!-- <a  target='_blank' href='https://calendly.com/Chrisjlopes/call' class='btn btn-primary'><i class="bi-calendar-event"></i> Schedule a Call</a> -->
-        <!-- <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a> -->
-        <!-- <a href='mailto:' class='btn btn-primary'><i class="bi-envelope"></i> Send Email</a> -->
+        <a href='mailto:banaschg@gmail.com' class='btn btn-primary' onclick="trackButtonClick('Email - header')"><i
+            class="bi-envelope"></i> Send email</a>
       </div>
     </div>
   </nav>
@@ -54,16 +83,14 @@
     <div class='container-fluid'>
       <div class='row'>
         <div class='col-md-6 offset-md-3'>
-          <sup>Meet Christopher Banas</sup>
+          <sup>I'm Christopher Banas</sup>
           <h1>Combining <span class='marker-highlight'>technology</span> and creative <span
-              class='marker-highlight'>problem-solving</span> to positively impact others.</h1>
-          <p class='lead mb-5'>I use technology to connect people and help others reach their full potential.</p>
-
-          <a target='_blank' href='https://www.linkedin.com/in/christopher-banas/' class='btn btn-primary'><i
-              class="bi-linkedin"></i> Connect on Linkedin</a>
-          <!-- <a  target='_blank' href='https://calendly.com/Chrisjlopes/call' class='btn btn-primary'><i class="bi-calendar-event"></i> Schedule a Call</a> -->
-          <!-- <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a> -->
-          <!-- <a href='mailto:' class='btn btn-primary'><i class="bi-envelope"></i> Send Email</a> -->
+            class='marker-highlight'>problem-solving</span> to positively impact others.</h1>
+        <p class='lead mb-5'>I use technology to connect people and help others reach their full potential.</p>
+          <div class='mt-5'>
+            <a href='mailto:banaschg@gmail.com' class='btn btn-primary' onclick="trackButtonClick('Email - tagline')"><i
+                class="bi-envelope"></i> Send email</a>
+          </div>
         </div>
       </div>
     </div>
@@ -75,16 +102,30 @@
 
       <div class='row justify-content-center d-flex align-items-center'>
         <div class='col-2'>
-          <img src="img/Thule-Logo.png" class='px-3'>
+          <a href="https://www.thulegroup.com/en" target="_blank" onclick="trackButtonClick('Logo - Thule')">
+            <img src="img/Thule-Logo.png" class='px-3' alt="logo - Thule">
+          </a>
         </div>
         <div class='col-2'>
-          <img src="img/M&D-Logo.png" class='px-3'>
+          <a href="https://www.melissaanddoug.com/" target="_blank" onclick="trackButtonClick('Logo - M&D')">
+            <img src="img/M&D-Logo.png" class='px-3' alt="logo - M&D">
+          </a>
         </div>
         <div class='col-2'>
-          <img src="img/Metlife-Logo.png" class='px-3'>
+          <a href="https://naturaldividends.org/" target="_blank" onclick="trackButtonClick('Logo - ND')">
+            <img src="img/Natural_Dividends_Logo_Full-Color copy.png" class='px-3' id='ndlogo' alt="logo - Natural Dividends">
+          </a>
         </div>
         <div class='col-2'>
-          <img src="img/Northwestern-Mutual.png" class='px-3'>
+          <a href="https://www.metlife.com/" target="_blank"
+            onclick="trackButtonClick('Logo - Metlife')">
+            <img src="img/Metlife-Logo.png" class='px-3' alt="logo - Metlife">
+          </a>
+        </div>
+        <div class='col-2'>
+          <a href="https://www.northwesternmutual.com/" target="_blank" onclick="trackButtonClick('Logo - NWM')">
+            <img src="img/Northwestern-Mutual.png" class='px-3' alt="logo - NWM">
+          </a>
         </div>
       </div>
     </div>
@@ -93,7 +134,7 @@
   <section id='portfolio' class='p-section bg-light'>
     <div class='container'>
       <sup>Portfolio</sup>
-      <h2 class='mb-5 underline'>Featured Work</h2>
+      <h2 class='mb-5 underline'>Featured work</h2>
 
       <div class='row mb-5'>
         <div class='col-sm-4'>
@@ -102,20 +143,27 @@
               <img src='img/spacer-portrait.png'>
             </div>
             <div class='card-body'>
-
               <h3>Neighborhood Node</h3>
               <p class='mb-3'>A full stack clone of Nextdoor a private social networking platform for neighborhoods. It
                 allows residents of a specific neighborhood to connect and communicate with each other, sharing local
                 news, events, recommendations, and concerns. Built on a foundation of Ruby on Rails, Node, and
                 React/Redux, this application utilizes industry-leading technologies such as AWS S3 Buckets, Google Maps
                 API, and bcrypt to provide a seamless user experience that prioritizes privacy and security.</p>
-
             </div>
             <div class='card-footer'>
-              <a href='https://github.com/chrisbanas/neighborhood_node' class='btn btn-sm btn-light'><i
-                  class="bi-github"></i> Code</a>
-              <a href='https://www.neighborhoodnode.com/' class='btn btn-sm btn-light'><i class="bi-power"></i> Live</a>
-              <!-- <a href='#' class='btn btn-sm btn-primary float-end'><i class="bi-play-fill"></i> Watch</a> -->
+              <a href='https://github.com/chrisbanas/neighborhood_node' class='btn btn-sm btn-light' target="_blank"
+                onclick="trackButtonClick('code - NN')"><i class="bi-github"></i> Code</a>
+              <a href='https://www.neighborhoodnode.com/'
+                class='btn btn-sm btn-light' target="_blank" onclick="trackButtonClick('live - NN')"><i
+                  class="bi-power"></i> Live</a>
+              <!-- <a href='#video-popup-caro' class='btn btn-sm btn-primary float-end open-popup-link'
+                onclick="trackButtonClick('watch - Caro')"><i class="bi-play-fill" target="_blank"></i> Watch</a>
+              <div id="video-popup-caro" class="white-popup mfp-hide">
+                <iframe class="video-viewport" src="https://www.youtube.com/embed/8bXo3bS2eqk"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div> -->
             </div>
           </div>
         </div>
@@ -126,17 +174,25 @@
               <img src='img/spacer-portrait.png'>
             </div>
             <div class='card-body'>
-
               <h3>Parrot</h3>
-              <p class='mb-3'>Parrot is a MERN full stack project management suite enabling teams to effectively ideate, develop, and execute complex projects harnessing the power of AI-generated project plans, interactive data visualizations, and automated reporting.</p>
-
-
+              <p class='mb-3'>Parrot is a MERN full stack project management suite enabling teams to effectively ideate,
+                develop, and execute complex projects harnessing the power of AI-generated project plans, interactive
+                data visualizations, and automated reporting.</p>
             </div>
             <div class='card-footer'>
-              <a href='https://github.com/Team-Parrot-Project/Parrot' class='btn btn-sm btn-light'><i
-                  class="bi-github"></i> Code</a>
-              <a href='http://www.parrotpm.com/' class='btn btn-sm btn-light'><i class="bi-power"></i> Live</a>
-              <!-- <a href='#' class='btn btn-sm btn-primary float-end'><i class="bi-play-fill"></i> Watch</a> -->
+              <a href='https://github.com/Team-Parrot-Project/Parrot' class='btn btn-sm btn-light' target="_blank"
+                onclick="trackButtonClick('code - PM')"><i class="bi-github"></i> Code</a>
+              <a href='https://www.parrotpm.com/'
+                class='btn btn-sm btn-light' target="_blank" onclick="trackButtonClick('live - PM')"><i
+                  class="bi-power"></i> Live</a>
+              <!-- <a href='#video-popup-gg' class='btn btn-sm btn-primary float-end open-popup-link'
+                onclick="trackButtonClick('gg - watch')"><i class="bi-play-fill" target="_blank"></i> Watch</a>
+              <div id="video-popup-gg" class="white-popup mfp-hide">
+                <iframe class="video-viewport" src="https://www.youtube.com/embed/PFHso7U-87M"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div> -->
             </div>
           </div>
         </div>
@@ -147,94 +203,33 @@
               <img src='img/spacer-portrait.png'>
             </div>
             <div class='card-body'>
-
               <h3>Trader Radar</h3>
-              <p class='mb-3'>Trader Radar is a visual and interactive representation of how various stocks or financial instruments are performing in the market. It combines a stock heatmap, a stock search function, a candlestick chart, live market clock, and stock ticker tape to provide valuable insights and aid in decision-making.</p>
-
+              <p class='mb-3'>Trader Radar is a visual and interactive representation of how various stocks or financial
+                instruments are performing in the market. It combines a stock heatmap, a stock search function, a
+                candlestick chart, live market clock, and stock ticker tape to provide valuable insights and aid in
+                decision-making.</p>
             </div>
             <div class='card-footer'>
-              <a href='https://github.com/chrisbanas/trader_radar' class='btn btn-sm btn-light'><i
-                  class="bi-github"></i> Code</a>
-              <a href='https://www.traderradar.net/' class='btn btn-sm btn-light'><i class="bi-power"></i> Live</a>
-              <!-- <a href='#' class='btn btn-sm btn-primary float-end'><i class="bi-play-fill"></i> Watch</a> -->
+              <a href='https://github.com/chrisbanas/trader_radar' class='btn btn-sm btn-light' target="_blank"
+                onclick="trackButtonClick('code - TR')"><i class="bi-github"></i> Code</a>
+              <a href='https://www.traderradar.net/'
+                class='btn btn-sm btn-light' target="_blank" onclick="trackButtonClick('live - TR')"><i
+                  class="bi-power"></i> Live</a>
+              <!-- <a href='#video-popup-bb' class='btn btn-sm btn-primary float-end open-popup-link'
+                onclick="trackButtonClick('watch - bb')"><i class="bi-play-fill" target="_blank"></i> Watch</a>
+              <div id="video-popup-bb" class="white-popup mfp-hide">
+                <iframe class="video-viewport" src="https://www.youtube.com/embed/ppZjaORjJZk"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen></iframe>
+              </div> -->
             </div>
           </div>
         </div>
+
+
+        </div>
       </div>
-
-      <!-- <h3 class='pt-3'>Other Clients and Past Projects</h3>
-      <div class='row'>
-        <div class='col-sm-5'>
-          <p class='pb-3 lead'>These items are a collection of companies I've worked with, projects I've undertaken, and
-            products I've helped launch. They include things like:</p>
-
-          <ul class='lead'>
-            <li>Brochure Websites</li>
-            <li>User Experience Design</li>
-            <li>App Development</li>
-            <li>Go to Market Strategy</li>
-            <li>MVP Design and Implementation</li>
-          </ul>
-        </div>
-        <div class='col-sm-7'>
-
-          <ul class='text-center list-inline w-md ms-auto me-auto'>
-            <li class='list-inline-item'>
-              <a href='https://hypepotamus.com/featured-events/startup-picture-day-summer-2019/' target='_blank'
-                class='btn'>Startup Picture Day</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://www.trustsandcastle.com/' target='_blank' class='btn'>Sandcastle</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://www.shift.org/' target='_blank' class='btn'>Shift.org</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://app.jsmoneycoach.com/' target='_blank' class='btn'>JSMoney Coach</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://newstorycharity.org/' target='_blank' class='btn'>New Story</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://www.feefavor.com/' target='_blank' class='btn'>FeeFavor</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://www.dailylectio.net/' target='_blank' class='btn'>DailyLectio</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://simplygrants.com/' target='_blank' class='btn'>Simply Grants</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://www.cimienta.com/' target='_blank' class='btn'>Cimienta</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://www.investatlanta.com/' target='_blank' class='btn'>Invest Atlanta</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://loveatlanta.com/serve' target='_blank' class='btn'>Love Atlanta</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://www.blackgirlventures.org/' target='_blank' class='btn'>Black Girl Ventures</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://northpoint.org/' target='_blank' class='btn'>North Point Church</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://www.louiegiglio.com/' target='_blank' class='btn'>Louie Giglio</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://mattredman.com/' target='_blank' class='btn'>Matt Redman</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://passioncitychurch.com/' target='_blank' class='btn'>Passion City Church</a>
-            </li>
-            <li class='list-inline-item'>
-              <a href='https://passionconferences.com/' target='_blank' class='btn'>Passion Conference</a>
-            </li>
-          </ul>
-        </div>
-      </div> -->
-    </div>
   </section>
 
   <section id='about' class='p-section'>
@@ -245,52 +240,97 @@
       <div class='row flex-row'>
         <div class='col-sm-4'>
           <div class='p-3 sticky-top' style='top: 85px;'>
-            <img src="img/Chris-17-min.jpg" class='circle mb-3'>
-
+            <a target='_blank' href='https://www.linkedin.com/in/christopher-banas/'
+              onclick="trackButtonClick('Connect on Linkedin - profile pic')"> <img src="img/headshot_2023.png"
+                class='circle mb-3' alt="Christopher Banas - Profile Picture"></a>
             <ul class='list-inline mb-0 text-center'>
               <li class='list-inline-item h4 mb-0 me-3'>
-                <a href='https://www.linkedin.com/in/christopher-banas/' target='_blank' class='text-light'>
+                <a href='https://www.linkedin.com/in/christopher-banas/' target='_blank' class='text-light'
+                  onclick="trackButtonClick('icon - about - linkedin')">
                   <i class="bi-linkedin"></i>
                 </a>
               </li>
               <li class='list-inline-item h4 mb-0 me-3'>
-                <a href='https://github.com/chrisbanas' target='_blank' class='text-light'>
+                <a href='https://github.com/chrisbanas' target='_blank' class='text-light'
+                  onclick="trackButtonClick('icon - about - github')">
                   <i class="bi-github"></i>
                 </a>
               </li>
-              <!-- <li class='list-inline-item h4 mb-0 me-3'>
-                <a href='https://twitter.com/ChrisJLopes' target='_blank' class='text-light'>
-                  <i class="bi-twitter"></i>
+              <li class='list-inline-item h4 mb-0 me-3'>
+                <a href='https://wellfound.com/u/christopher-banas-1' target='_blank' class='text-light'
+                  onclick="trackButtonClick('icon - about - wellfound')">
+                  <i class="fa-brands fa-angellist"></i>
                 </a>
-              </li> -->
+              </li>
             </ul>
           </div>
         </div>
         <div class='col-sm-8'>
-          <blockquote>Actively writing code and building high-functioning applications.</blockquote>
+          <blockquote>Actively writing code and building solutions.</blockquote>
 
-          <img src="img/github-activity.png" class='mb-3'>
-
+          <a href="https://github.com/chrisbanas" target="_blank" onclick="trackButtonClick('greenfield')">
+            <img src="img/github-activity-comments.png" class='mb-3 github-field'
+              alt="Christopher Banas github greenfield">
+          </a>
           <p class='lead'>Thought-filled software engineer and entrepreneur who understands that deliberate, <span
-              class='marker-highlight'>consistent progress</span> over time is life's greatest growth strategy.</p>
-          <p class='lead'>With my expertise, I have helped numerous companies<span
-              class='marker-highlight'>surpass their revenue growth, cost reduction,</span> and operational targets. Drawing from my experience as a business owner and financial analyst, I possess a deeper understanding of the challenges managers encounter when making critical business decisions.</p>
+            class='marker-highlight'>consistent progress</span> over time is life's greatest growth strategy.</p>
+        <p class='lead'>With my expertise, I have helped numerous companies<span class='marker-highlight'>surpass
+            their revenue growth, cost reduction,</span> and operational targets. Drawing from my experience as a
+          business owner and financial analyst, I possess a deeper understanding of the challenges managers encounter
+          when making critical business decisions.</p>
 
-          <p class='lead mb-0'>Favorite Tools:</p>
+        <p class='lead mb-0'>Favorite Tools:</p>
 
-          <ul class='lead'>
-            <li><span class='marker-highlight'>Javascript</span></li>
-            <li>React</li>
-            <li>Redux</li>
-            <li>MERN</li>
-          </ul>
+        <ul class='lead'>
+          <li><span class='marker-highlight'>Java</span></li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>MERN</li>
+        </ul>
+
+          <div id="language-icon-container">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg"
+              alt="technology icon - react">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg"
+              alt="technology icon - javascript">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg"
+              alt="technology icon - python">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/ruby-lang/ruby-lang-ar21.svg"
+              alt="technology icon - ruby">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg"
+              alt="technology icon - nodejs">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg"
+              alt="technology icon - html5">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg"
+              alt="technology icon - css">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.svg"
+              alt="technology icon - postgresql">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg"
+              alt="technology icon - mongodb">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/google_maps/google_maps-ar21.svg"
+              alt="technology icon - google maps api">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/amazon_aws/amazon_aws-ar21.svg"
+              alt="technology icon - aws">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/js_webpack/js_webpack-ar21.svg"
+              alt="technology icon - webpack">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/babeljs/babeljs-ar21.svg"
+              alt="technology icon - babel">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/npmjs/npmjs-ar21.svg"
+              alt="technology icon - npm">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/heroku/heroku-ar21.svg"
+              alt="technology icon - heroku">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/github/github-ar21.svg"
+              alt="technology icon - github">
+            <img class="language-icon" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-ar21.svg"
+              alt="technology icon - git">
+            <img class="language-icon"
+              src="https://www.vectorlogo.zone/logos/google_analytics/google_analytics-ar21.svg"
+              alt="technology icon - google analytics">
+          </div>
 
           <div class='mt-5'>
-            <a target='_blank' href='https://www.linkedin.com/in/christopher-banas/' class='btn btn-primary'><i
-                class="bi-linkedin"></i> Connect on Linkedin</a>
-            <!-- <a  target='_blank' href='https://calendly.com/Chrisjlopes/call' class='btn btn-primary'><i class="bi-calendar-event"></i> Schedule a Call</a> -->
-            <!-- <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a> -->
-            <!-- <a href='mailto:' class='btn btn-primary'><i class="bi-envelope"></i> Send Email</a> -->
+            <a href='mailto:banaschg@gmail.com' class='btn btn-primary' onclick="trackButtonClick('Email - about')"><i
+                class="bi-envelope"></i> Send email</a>
           </div>
         </div>
       </div>
@@ -300,22 +340,30 @@
   <section id='testimonials' class='p-section'>
     <div class='container'>
       <sup>Testimonials</sup>
-      <h2 class='mb-5 underline'>Kind Words<br>from Great People</h2>
+      <h2 class='mb-5 underline'>Kind words<br>from great people</h2>
 
       <div class='row'>
         <div class='col-sm-4'>
           <div class='p-3'>
             <div class=''>
-              <blockquote class='quotation'>“Chris has a <span class='marker-highlight'>passion</span> for helping and
-                teaching people!”</blockquote>
-              <p class='lead'>I met Chris back in college where we both studied Finance. Even then, Chris had a passion
-                for helping and teaching people! He helped myself and my husband dig through all of our debt and figure
-                out a plan to get ourselves out of our financial pit so we can build wealth! Chris was very patient with
-                us and would highly recommend him!</p>
+              <blockquote class='quotation'>“She is incredibly <span class='marker-highlight'> reliable, </span> <span
+                  class='marker-highlight'> resilient, </span> and <span class='marker-highlight'> relentless. </span> I
+                knew that whatever front she took, that front was covered. ”</blockquote>
+              <p class='lead'>We took on one incredibly difficult task after another and we had to solve very new and
+                different problems every day. No matter the challenge, she always had a <span class='marker-highlight'>
+                  ‘get things done’ </span> <span class='marker-highlight'> attitude </span> even in new and ambiguous
+                subject areas, high <span class='marker-highlight'> attention to detail </span> <span
+                  class='marker-highlight'> where it mattered </span> , excellent cross-team collaboration and
+                communications, and focus on developing processes and tools that <span class='marker-highlight'> enable
+                  others </span> to get things done.</p>
             </div>
             <div class=''>
-              <img src="img/christine.jpg" class='circle testimonial-image'>
-              <h3 class='pt-3'>Christine</h3>
+              <a href="https://www.linkedin.com/in/ahmed-rashad-23a92014/" target="_blank"
+                onclick="trackButtonClick('recs - Christine')">
+                <img src="img/christine.jpg" class='circle testimonial-image'
+                  alt="recommender profile picture - Christine">
+                <h3 class='pt-3 kind-person'>Christine</h3>
+              </a>
               <em>Realtor with Coldwell Banker Realty</a></em>
             </div>
           </div>
@@ -324,18 +372,23 @@
         <div class='col-sm-4'>
           <div class='p-3'>
             <div class=''>
-              <blockquote class='quotation'>“He has molded me to become more "intentional" in my actions”</blockquote>
-              <p class='lead'>As a client of Christopher's, I did not know just how much <span
-                  class='marker-highlight'>value</span> I would get from his financial coaching. His program not only
-                challenges me to take control of my own financial situation, but it has also helped me realize where I
-                need to improve in other areas of my life like my personal habits and mindset. It has molded me to
-                become more "intentional" in my actions and most importantly, having a clear picture and strategy to my
-                financial goals.</p>
+              <blockquote class='quotation'>“At Scale, she was known as the <span class='marker-highlight'> expert to go
+                  to </span> whenever a new feature was released...”</blockquote>
+              <p class='lead'>Taisia initially came up with a scrappy user flow that required minimal new product build,
+                and after <span class='marker-highlight'> demonstrating the feasibility </span> of the approach she
+                partnered closely with me and the rest of the product and engineering team to continuously iterate and
+                translate that flow into a <span class='marker-highlight'>scalable user experience.</span> She's also an
+                extremely clear communicator and the <span class='marker-highlight'>best technical writer</span> I've
+                ever met.</p>
             </div>
             <div class=''>
-              <img src="img/Andy.jpg" class='circle testimonial-image'>
-              <h3 class='pt-3'>Andy</h3>
-              <em>HR & Wholesale Manager</em>
+              <a href="https://www.linkedin.com/in/jasonliang94/" target="_blank"
+                onclick="trackButtonClick('recs - Andy')">
+                <img src="img/Andy.jpg" class='circle testimonial-image'
+                  alt="recommender profile picture - Andy">
+                <h3 class='pt-3 kind-person'>Andy</h3>
+              </a>
+              <em>Scale AI new product</em>
             </div>
           </div>
         </div>
@@ -343,18 +396,22 @@
         <div class='col-sm-4'>
           <div class='p-3'>
             <div class=''>
-              <blockquote class='quotation'>“Christopher played and still is playing a vital role in helping me set life
-                goals,”</blockquote>
-              <p class='lead'>Christopher played and still is playing a vital role in helping me set life goals, create
-                a roadmap to those goals, and then provide me with the tools to achieve that financial clarity required
-                to arrive at the goals I set within the timeline I chose. Christopher shares his perspective of life and
-                introduces a simple yet <span class='marker-highlight'>effective</span> way of living. Anyone who seeks
-                financial or professional improvement would benefit from Christopher. </p>
+              <blockquote class='quotation'>“Her high spirits and <span class='marker-highlight'> enthusiasm </span>
+                were empowering, keeping the team motivated and on-track.”</blockquote>
+              <p class='lead'>Her researching capabilities using online resources and debugging skills were always
+                reliable. Her ability to learn and understand a new API, and be able to <span
+                  class='marker-highlight'>implement it seamlessly</span> into the project was extremely impressive.
+                That goes to show that she is able to <span class='marker-highlight'> quickly adapt </span> to
+                integrating new technologies in a short amount of time and in a responsible manner.</p>
             </div>
             <div class=''>
-              <img src="img/levo.jpg" class='circle testimonial-image'>
-              <h3 class='pt-3'>Levent</h3>
-              <em>IT Client Relationship Associate</em>
+              <a href="https://www.linkedin.com/in/kat-vu-57b50411b/" target="_blank"
+                onclick="trackButtonClick('recs - Kat')">
+                <img src="img/testimonial-kat.jpg" class='circle testimonial-image'
+                  alt="recommender profile picture - Kat">
+                <h3 class='pt-3 kind-person'>Kat</h3>
+              </a>
+              <em>Software engineering team project</em>
             </div>
           </div>
         </div>
@@ -363,153 +420,150 @@
     </div>
   </section>
 
-  <!-- <section class='bg-dark text-white section-inverse'>
+  <section class='bg-dark text-white section-inverse'>
     <div class='container'>
       <div class='bg-primary p-5 card'>
-        <h2 class='mb-5 text-center underline'>Shipping More Than Code</h2>
+        <h2 class='mb-5 text-center underline'>Shipping more than code</h2>
 
         <div class='row'>
           <div class='col-sm-4'>
-            <h3><i class="bi-pen me-2"></i> Popular Writings</h3>
+            <h3><i class="bi-stars me-2"></i> Experiments</h3>
             <ul>
               <li>
-                <a target='_blank' href='https://www.Chrisjlopes.com/annual-reflection-framework/'
-                  class='text-white'>Annual Reflection Framework</a>
+                <a target='_blank' href='https://unsplash.com/@taisiat' class='text-white shipping-more'
+                  onclick="trackButtonClick('more than code - unsplash')">Unsplash photo contributions (300K+ views and
+                  2.2K+ uses!)</a>
               </li>
               <li>
-                <a target='_blank' href='https://www.Chrisjlopes.com/bringing-humanity-back-to-email/'
-                  class='text-white'>Bringing Humanity Back to Email</a>
+                <a target='_blank' href='https://scale.com/blog/scale-hackathon#Super%20Instructions'
+                  class='text-white shipping-more' onclick="trackButtonClick('more than code - hackathon')">'Super
+                  Instructions' prototype @ Scale AI hackathon</a>
               </li>
               <li>
-                <a target='_blank' href='https://www.Chrisjlopes.com/work-life-harmony/' class='text-white'>Work Life
-                  Harmony</a>
+                <a target='_blank' href='https://youtu.be/yDgB1KA087A' class='text-white shipping-more'
+                  onclick="trackButtonClick('more than code - bees')">Audio essay about bees in Moscow</a>
               </li>
               <li>
-                <a target='_blank' href='https://medium.com/tenrocket/web-and-mobile-app-sitemap-643b60b0343e'
-                  class='text-white'>Web and Mobile App Sitemap</a>
-              </li>
-              <li>
-                <a target='_blank'
-                  href='https://medium.com/polar-notion/building-a-blueprint-for-your-idea-5acad1bfb6b7'
-                  class='text-white'>Building a Blueprint for your Idea</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://medium.com/polar-notion/how-to-launch-an-idea-in-1-month-398c54d116b9'
-                  class='text-white'>How to Launch an Idea in One Month</a>
+                <a target='_blank' href='https://www.centraltimes.org/showcase/2010/04/27/minding-mrsa/'
+                  class='text-white shipping-more' onclick="trackButtonClick('more than code - newspaper')">Newspaper
+                  main story about my school's MRSA outbreak</a>
               </li>
             </ul>
           </div>
           <div class='col-sm-4'>
-            <h3><i class="bi-megaphone me-2"></i> Podcast Interviews</h3>
+            <h3><i class="bi-pen-fill me-2"></i> Popular writings</h3>
             <ul>
               <li>
-                <a target='_blank' href='https://podcast.nonprofitmegaphone.com/622294/8188617-Chris-lopes-at-new-story'
-                  class='text-white'>Methods and Mindsets with CTO at New Story</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://shrimptankpodcast.com/ep-152-Chris-lopes-process-optimization/'
-                  class='text-white'>Process Optimization</a>
-              </li>
-              <li>
-                <a target='_blank'
-                  href='https://www.iheart.com/podcast/269-the-second-mile-47831491/episode/1-3-creating-a-successful-human-centered-business-49175425/'
-                  class='text-white'>Creating a Human-Centered Business</a>
-              </li>
-              <li>
-                <a target='_blank' href='https://www.audible.com/pd/Using-Tech-for-Good-Podcast/B098PXTJHW'
-                  class='text-white'>Using Tech for Good</a>
+                <a target='_blank' href='https://scale.com/blog/partnering-with-customers'
+                  class='text-white shipping-more'
+                  onclick="trackButtonClick('more than code - partnering w customers')">How Does Scale AI Partner with
+                  Customers to Produce High-Quality Training Data?</a>
               </li>
               <li>
                 <a target='_blank'
-                  href='https://www.audacy.com/podcasts/2-minute-talk-tips-23509/ep-129-medieval-times-to-ceo-with-Chris-lopes-96455297'
-                  class='text-white'>From Medieval Times to CEO</a>
+                  href='https://www.linkedin.com/posts/taisiakaraseva_tks-bouncy-bee-activity-7071576417515302912-QsiM?utm_source=share&utm_medium=member_desktop'
+                  class='text-white shipping-more' onclick="trackButtonClick('more than code - linkedin posts')">Things
+                  I've learned as a software engineer (multipart post series)</a>
+              </li>
+              <li>
+                <p class='text-white '>...and non-public ML training data documentation for most of Scale AI's strategic
+                  customers</p>
               </li>
             </ul>
           </div>
           <div class='col-sm-4'>
-            <h3><i class="bi-tools me-2"></i> Awards</h3>
+            <h3><i class="bi-camera-fill me-2"></i> Travel</h3>
             <ul>
               <li>
-                <a target='_blank' href='https://www.codeschoolguide.com/book/' class='text-white'>Code School Book</a>
+                <a target='_blank' href='https://youtu.be/4egiBEYdYbU' class='text-white shipping-more'
+                  onclick="trackButtonClick('more than code - escargots')">Escargot, frites, and Red Lights: my study
+                  abroad in France</a>
               </li>
               <li>
-                <a target='_blank' href='http://polarnotion.github.io/turntable/' class='text-white'>Turntable.js</a>
+                <a target='_blank' href='https://www.gooverseas.com/interview/alumni/151053'
+                  class='text-white shipping-more' onclick="trackButtonClick('more than code - ciee')">CIEE Abroad
+                  Alumni Spotlight: Taisia Karaseva</a>
               </li>
               <li>
-                <a target='_blank' href='http://polarnotion.github.io/hamsterwheel'
-                  class='text-white'>Hamsterwheel.js</a>
+                <a target='_blank' href='https://youtu.be/XYp7KW4Wxeg' class='text-white shipping-more'
+                  onclick="trackButtonClick('more than code - galloping')">Galloping through Europe: 13 cities in 2
+                  weeks</a>
               </li>
               <li>
-                <a target='_blank' href='http://polarnotion.github.io/scroll-plugin'
-                  class='text-white'>Scrollmptious.js</a>
+                <a target='_blank' href='https://youtu.be/Qv7-k-SqG8U' class='text-white shipping-more'
+                  onclick="trackButtonClick('more than code - jumping')">2015: The Grand European Jumping Tour</a>
               </li>
               <li>
-                <a target='_blank' href='https://polarnotion.github.io/starwarsintro/'
-                  class='text-white'>StarWarsIntro.css</a>
+                <a target='_blank' href='https://youtu.be/6MGrnih_lJc' class='text-white shipping-more'
+                  onclick="trackButtonClick('more than code - spain')">A Journey through Spain: my study broad in
+                  Spain</a>
               </li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
 
   <section id='contact' class='p-section-lg bg-dark text-white'>
     <div class='container container-lg text-center'>
 
       <sup>Contact</sup>
-      <h2 class='mb-5'>Let's Talk</h2>
+      <h2 class='mb-5'>Let's talk</h2>
 
       <p class='w-sm ms-auto me-auto lead'>Hey! There is no better way to get to know each other than a chat. You set
         the agenda or we can start with these talking points:</p>
 
       <ul class='list-unstyled lead'>
-        <li>🥑➡️😋Food (Love avacados)</li>
-        <li>🥾🧗🏞️ Hiking (I'm training for an Mt Whitney)</li>
-        <li>🕹️👾🎮 Gaming (Choice character on Smash?)</li>
+        <li>&#x1F951➡️&#x1F60B Food (Love avocados)</li>
+        <li>&#x1F45E&#x1F9D7&#x1F3DE Hiking (I'm training for Mt. Whitney)</li>
+        <li>&#x1F579👾🎮 Gaming (Favorite character on Smash?)</li>
+        <li>&#x1F596 Making the switch to engineering!</li>
       </ul>
 
       <div class='mt-5'>
-        <a target='_blank' href='https://www.linkedin.com/in/christopher-banas/' class='btn btn-primary'><i
-            class="bi-linkedin"></i> Connect on Linkedin</a>
-        <!-- <a  target='_blank' href='https://calendly.com/Chrisjlopes/call' class='btn btn-primary'><i class="bi-calendar-event"></i> Schedule a Call</a> -->
-        <!-- <a href='#' class='btn btn-primary'><i class="bi-download"></i> Download Resume</a> -->
-        <!-- <a href='mailto:' class='btn btn-primary'><i class="bi-envelope"></i> Send Email</a> -->
+        <a target='_blank' href='https://www.linkedin.com/in/christopher-banas/' class='btn btn-primary'
+          onclick="trackButtonClick('Connect on Linkedin - contact')"><i class="bi-linkedin"></i> Connect on
+          Linkedin</a>
+        <a target='_blank' href='https://github.com/chrisbanas' class='btn btn-primary'
+          onclick="trackButtonClick('Github - contact')"><i class="bi-github"></i> Check out GitHub</a>
+        <a href='./Christopher_Banas_Resume.zip' class='btn btn-primary'
+          onclick="trackButtonClick('Resume - contact')"><i class="bi-download"></i> Download resume</a>
+        <a href='mailto:banaschg@gmail.com' class='btn btn-primary' onclick="trackButtonClick('Email - contact')"><i
+            class="bi-envelope"></i> Send email</a>
       </div>
     </div>
   </section>
-
-
 
   <footer class='bg-black p-5 text-white'>
     <div class='container'>
       <div class='row'>
         <div class='col-sm-6'>
           <p>
-            © Christopher Banas</a>
+            © Christopher Banas
           </p>
-          <a href="https://github.com/morganjlopes/portfolio-template">
-            <p className="source">Personal portfolio theme by Morgan J Lopes</p>
-          </a>
         </div>
 
         <div class='col-sm-6'>
           <ul class='list-inline float-end'>
             <li class='list-inline-item h4 mb-0 me-3'>
-              <a href='https://www.linkedin.com/in/christopher-banas/' target='_blank' class='text-light'>
+              <a href='https://www.linkedin.com/in/christopher-banas/' target='_blank' class='text-light'
+                onclick="trackButtonClick('icon - linkedin - footer')">
                 <i class="bi-linkedin"></i>
               </a>
             </li>
             <li class='list-inline-item h4 mb-0 me-3'>
-              <a href='https://github.com/chrisbanas' target='_blank' class='text-light'>
+              <a href='https://github.com/chrisbanas' target='_blank' class='text-light'
+                onclick="trackButtonClick('icon - github - footer')">
                 <i class="bi-github"></i>
               </a>
             </li>
-            <!-- <li class='list-inline-item h4 mb-0 me-3'>
-              <a href='#' target='_blank' class='text-light'>
-                <i class="bi-twitter"></i>
+            <li class='list-inline-item h4 mb-0 me-3'>
+              <a href='https://wellfound.com/u/christopher-banas-1' target='_blank' class='text-light'
+                onclick="trackButtonClick('icon - wellfound - footer')">
+                <i class="fa-brands fa-angellist"></i>
               </a>
-            </li> -->
+            </li>
           </ul>
         </div>
       </div>
@@ -524,8 +578,6 @@
       </filter>
     </defs>
   </svg>
-
-
 </body>
 
 </html>
