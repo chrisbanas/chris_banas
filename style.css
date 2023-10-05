@@ -134,8 +134,8 @@ header.p-section {
 }
 
 .btn-primary {
-  background-color: #07958c;
-  border-color: #07958c;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
   transition: all 0.15s ease-in-out;
 }
 
@@ -174,7 +174,7 @@ header.p-section {
 
 .marker-highlight:before {
   content: "";
-  background-color: #07c6b987;
+  background-color: #0b6efd87;
   width: 102%;
   height: 0.2em;
   position: absolute;
@@ -186,7 +186,7 @@ header.p-section {
 }
 
 .bg-primary {
-  background-color: #077c74 !important;
+  background-color: #0d6efd !important;
 }
 
 .px-3:hover {
@@ -221,16 +221,17 @@ header.p-section {
 
 .github-field {
   transition: all 0.15s ease-in-out;
+  border-radius: 5px;
 }
 
 .kind-person {
-  color: #077c74;
+  color: #0d6efd;
   text-decoration: none;
-  text-decoration-color: #077c74;
+  text-decoration-color: #0d6efd;
 }
 
 a {
-  color: #077c74;
+  color: #0d6efd;
 }
 
 .btn-light:hover {
@@ -330,4 +331,49 @@ a {
 }
 .fa-angellist {
   font-weight: 900;
+}
+
+.psva {
+  display: inline-block;
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s ease-in-out;
+}
+
+.cleanup {
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s ease-in-out;
+}
+
+
+.psva:hover {
+  transform: scale3d(1.025, 1.025, 1.025);
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+}
+
+.cleanup:hover {
+  transform: scale3d(1.025, 1.025, 1.025);
+  transition: all 0.15s ease-in-out;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+}
+
+.award-desc {
+  padding-top: 10px;
+}
+
+.image-description {
+  text-align: center;
+}
+
+.nd-link {
+  color: white;
+  text-decoration: underline;
+}
+
+.nd-link:hover {
+  color: white;
 }
